@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{34bad6e8-75be-4ef3-8269-fa9dc13f3dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderer">
+      <UniqueIdentifier>{d1b8ddf9-2d18-476d-a5f7-657c8f33cecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{4e100a95-76e2-4b28-96d1-d24fc0b63437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\foundation">
+      <UniqueIdentifier>{7b7a6d05-b136-4e67-b770-413b705d5858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gfx">
+      <UniqueIdentifier>{371bf9d6-727d-4751-a946-bbe2d31c232d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gfx">
+      <UniqueIdentifier>{a42db9ae-b261-475b-8bb3-9a49aba295c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gfx\d3d11">
+      <UniqueIdentifier>{3f0ffca3-a96b-4b18-b98a-d78ae88040ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gfx\d3d11">
+      <UniqueIdentifier>{8ba5ad32-a3d6-4d27-9df7-b36ff3fd9965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{2224b4e0-4ed7-4242-9644-4517c868fe6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\foundation">
+      <UniqueIdentifier>{55f3ad0a-35c8-4108-b658-97ad67d5d118}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\windowing\winmain.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\renderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\foundation\memory.cpp">
+      <Filter>Source Files\core\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\foundation\murmur_hash.cpp">
+      <Filter>Source Files\core\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\foundation\string_stream.cpp">
+      <Filter>Source Files\core\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\engine.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\d3d11\gfxdeviced3d11.cpp">
+      <Filter>Source Files\gfx\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\logger.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\gfxdevice.cpp">
+      <Filter>Source Files\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\d3d11\gfxsetupd3d11.cpp">
+      <Filter>Source Files\gfx\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\gfxbuffer.cpp">
+      <Filter>Source Files\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\d3d11\gfxbufferd3d11.cpp">
+      <Filter>Source Files\gfx\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\material.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\gfxpipeline.cpp">
+      <Filter>Source Files\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\d3d11\gfxpipelined3d11.cpp">
+      <Filter>Source Files\gfx\d3d11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\windowing.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderer\renderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\array.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\collection_types.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\hash.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\math_types.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\memory.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\memory_types.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\murmur_hash.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\platform.msvc.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\queue.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\string_stream.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\temp_allocator.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\foundation\types.h">
+      <Filter>Header Files\core\foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\objectmanager.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\engine.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\gfxdevice.h">
+      <Filter>Header Files\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\d3d11\gfxdeviced3d11.h">
+      <Filter>Header Files\gfx\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\logger.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\gfxbuffer.h">
+      <Filter>Header Files\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\d3d11\gfxbufferd3d11.h">
+      <Filter>Header Files\gfx\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderer\material.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\gfxpipeline.h">
+      <Filter>Header Files\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gfx\d3d11\gfxpipelined3d11.h">
+      <Filter>Header Files\gfx\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\constants.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
